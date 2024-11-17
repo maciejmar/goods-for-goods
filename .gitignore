@@ -1,0 +1,72 @@
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# SQLite database files (if used during local development)
+*.sqlite3
+db.sqlite3
+
+# Django static and media files
+/static/
+*.log
+/media/
+
+# Migrations
+migrations/
+
+# Local environment files (e.g., virtual environments)
+env/
+venv/
+
+# Docker environment files
+*.env
+
+# Docker-specific files
+docker-compose.override.yml
+# VS Code
+.vscode/
+
+# PyCharm/IntelliJ
+.idea/
+*.iml
+
+# MacOS Finder Files
+.DS_Store
+
+# Windows thumbnail database files
+Thumbs.db
+
+# Vim swap files
+*.swp
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.directory
+# Logs
+*.log
+*.out
+*.err
+
+# Celery beat schedule files
+celerybeat-schedule
+# Dependency directories
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Postgres dump files
+*.sql
+*.dump
+# Shared utilities cache
+__pycache__/
+shared/__pycache__/
