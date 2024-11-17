@@ -18,6 +18,9 @@ migrations/
 # Local environment files (e.g., virtual environments)
 env/
 venv/
+user_service/venv/
+message_service/venv/
+notification_service/venv/
 
 # Docker environment files
 *.env
